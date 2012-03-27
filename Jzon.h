@@ -34,7 +34,7 @@ namespace Jzon
 	class Value;
 	class Object;
 	class Array;
-	typedef std::pair<std::string, Node&> NamedNode;
+	typedef std::pair<std::string, const Node&> NamedNode;
 	typedef std::pair<std::string, Node*> NamedNodePtr;
 	
 	class TypeException : public std::exception
